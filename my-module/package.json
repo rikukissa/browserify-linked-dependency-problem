@@ -1,5 +1,5 @@
 {
-  "name": "common-dependency",
+  "name": "my-module",
   "version": "1.0.0",
   "main": "index.js"
 }

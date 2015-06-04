@@ -1,9 +1,5 @@
-'use strict';
+/*
+ * Dependency used by our app and our module (React for example)
+ */
 
-(function(exports) {
-  if(exports.ohNo) {
-    throw new Error('Module already initialized');
-  }
-
-  exports.ohNo = true;
-})(this);
+module.exports = Date.now();

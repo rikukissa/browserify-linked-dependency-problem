@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch": "watchify index.js -o dist/bundle.js",
+    "build": "browserify index.js > dist/bundle.js --full-paths",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^10.2.3"
+    "browserify": "^10.2.3",
+    "watchify": "^3.2.1"
   }
 }
